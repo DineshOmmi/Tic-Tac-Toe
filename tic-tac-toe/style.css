@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    background-color: #1D5B79;
+    height: 100vh;
+}
+#container{
+    font-family:"Permanent Marker",cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+#cellcontainer{
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width:300px;
+    margin-bottom: 30px;
+}
+.cell{
+    height:100px;
+    width:100px;
+    border:2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size: 70px;
+    line-height: 100px;
+    cursor: pointer;
+}
+#Statustext{
+    margin-bottom: 30px;
+}
+
+#restartbtn{
+    font-family:"Permanent Marker",cursive;
+    background-color: #E97777;
+    padding: 10px 20px;
+    border: 2px solid ;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
